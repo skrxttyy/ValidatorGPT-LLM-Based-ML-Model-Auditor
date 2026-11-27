@@ -1,0 +1,49 @@
+{
+  "dataset": "synthetic predictions",
+  "threshold": 0.5,
+  "metadata": {
+    "split_definition": "held-out invented rows"
+  },
+  "samples": [
+    {
+      "label": 0,
+      "probability": 0.1,
+      "group": "a"
+    },
+    {
+      "label": 0,
+      "probability": 0.2,
+      "group": "a"
+    },
+    {
+      "label": 1,
+      "probability": 0.4,
+      "group": "a"
+    },
+    {
+      "label": 1,
+      "probability": 0.3,
+      "group": "a"
+    },
+    {
+      "label": 0,
+      "probability": 0.7,
+      "group": "b"
+    },
+    {
+      "label": 0,
+      "probability": 0.1,
+      "group": "b"
+    },
+    {
+      "label": 1,
+      "probability": 0.8,
+      "group": "b"
+    },
+    {
+      "label": 1,
+      "probability": 0.2,
+      "group": "b"
+    }
+  ]
+}

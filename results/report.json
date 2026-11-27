@@ -1,0 +1,62 @@
+{
+  "dataset": "synthetic predictions",
+  "overall": {
+    "n": 8,
+    "positive_rate": 0.5,
+    "tn": 3,
+    "fp": 1,
+    "fn": 3,
+    "tp": 1,
+    "recall": 0.25,
+    "precision": 0.5,
+    "roc_auc": 0.78125,
+    "average_precision": 0.7708333333333333,
+    "brier": 0.26
+  },
+  "slices": {
+    "a": {
+      "n": 4,
+      "positive_rate": 0.5,
+      "tn": 2,
+      "fp": 0,
+      "fn": 2,
+      "tp": 0,
+      "recall": 0.0,
+      "precision": null,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "brier": 0.22499999999999998
+    },
+    "b": {
+      "n": 4,
+      "positive_rate": 0.5,
+      "tn": 1,
+      "fp": 1,
+      "fn": 1,
+      "tp": 1,
+      "recall": 0.5,
+      "precision": 0.5,
+      "roc_auc": 0.75,
+      "average_precision": 0.8333333333333333,
+      "brier": 0.29500000000000004
+    }
+  },
+  "findings": [
+    {
+      "evidence": "overall.recall",
+      "finding": "More than half of positives are missed at the supplied threshold."
+    },
+    {
+      "evidence": "metadata.feature_timing",
+      "finding": "Missing evidence; assessment is limited."
+    },
+    {
+      "evidence": "metadata.training_data_hash",
+      "finding": "Missing evidence; assessment is limited."
+    }
+  ],
+  "limitations": [
+    "No release decision",
+    "Slice differences alone do not establish unfairness or leakage"
+  ]
+}
